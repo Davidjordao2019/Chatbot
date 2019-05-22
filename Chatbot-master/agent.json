@@ -1,0 +1,40 @@
+{
+  "description": "Use this agent in your app so it can answer support related inquiries and provided a channel for users to contact your developers or support representatives.",
+  "language": "pt-br",
+  "shortDescription": "Support and CRM related conversations",
+  "examples": "User: Quem criou você?\nUser: Fale para os seus desenvolvedores que eu amo você.\nUser: Relatar bug: não está funcionando.\nUser: Qual é sua página no Facebook?\nUser: Quero me juntar ao grupo de testes Beta.\nUser: Pesquise o número de telefone do seu desenvolvedor.\nUser: Qual é o e-mail dos seus desenvolvedores?\nUser: Você tem conta no Instagram?",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "project": "support-85f45",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "America/New_York",
+  "webhook": {
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.2,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}
